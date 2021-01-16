@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Showpo Clothing</title>
+  <!-- materialize icons, css & js -->
+  <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" href="/css/styles.css" rel="stylesheet">
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <link rel="manifest" href="/manifest.json">
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
+</head>
+<body class="grey lighten-4">
+
+  <!-- top nav -->
+  <nav class="z-depth-0">
+    <div class="nav-wrapper container">
+      <a href="/"><img src="/img/showpologo-new.png" alt="logo thumb"></a>
+      <span class="right grey-text text-darken-1">
+        <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+      </span>
+    </div>
+  </nav>
+
+  <!-- side nav -->
+  <ul id="side-menu" class="sidenav side-menu">
+    <li><a class="subheader">Showpo</a></li>
+    <li><a href="/" class="waves-effect">Home</a></li>
+    <li><a href="#" class="waves-effect">About</a></li>
+    <li><div class="divider"></div></li>
+    <li><a href="#" class="waves-effect">
+      <i class="material-icons">mail_outline</i>Contact</a>
+    </li>
+  </ul>
+
+  <!-- clothes -->
+  <div class="clothes container grey-text text-darken-1">
+    <div class="card-panel clothe white row">
+      <img src="/img/Casual.png" alt="clothe thumb">
+      <div class="clothe-details">
+        <div class="clothe-title">Casual</div>
+        <div class="clothe-description">Newsflash, casual doesn’t mean basic. We’re talking cool, effortless styles redefined. From classic denim jackets, to graphic tees and your go-to jeans, these casual outfits are the foundation to a stylish wardrobe. Whether faux leather pants are your jam or you want to evoke some 90’s cool with a relaxed tee, ripped jeans and ankle boots, casual outfits are our daily go-to.</div>
+      </div>
+      <div class="clothe-delete">
+        <i class="material-icons">delete_outline</i>
+      </div>
+    </div>
+    <div class="card-panel clothe white row">
+      <img src="/img/Festival.png" alt="clothe thumb">
+      <div class="clothe-details">
+        <div class="clothe-title">Festival</div>
+        <div class="clothe-description">So you've bought your tickets and now you need to sort your festival outfit, amirite!? Well, no one does festival clothes, accessories, and top trends quite like Showpo. Whether you're going to Coachella, Splendour, Sensation, Tomorrowland, or Burning Man; we've got your style sorted.</div>
+      </div>
+      <div class="clothe-delete">
+        <i class="material-icons">delete_outline</i>
+      </div>
+    </div>
+    <div class="card-panel clothe white row">
+      <img src="/img/Basics.png" alt="clothe thumb">
+      <div class="clothe-details">
+        <div class="clothe-title">Basics</div>
+        <div class="clothe-description">Basic doesn’t mean boring. Staple basics are a must in every girl's wardrobe, especially for those mornings when you’re running late and all your go-to looks are in the wash. In cute cuts and offered in a range of colours and styles, our basic styles will go with everything you already own.</div>
+      </div>
+      <div class="clothe-delete">
+        <i class="material-icons">delete_outline</i>
+      </div>
+    </div>
+    <div class="card-panel clothe white row">
+      <img src="/img/Racewear.png" alt="clothe thumb">
+      <div class="clothe-details">
+        <div class="clothe-title">Racewear</div>
+        <div class="clothe-description">Spring racing season signifies the unofficial start to summer and the official start to the party season. But the racing style game can be a fashion minefield – to fascinator or not to fascinator? What’s an acceptable amount of skin to show? Which colour is ‘in’ this year? Gah, the decisions are more difficult than choosing a Messina flavour.</div>
+      </div>
+      <div class="clothe-delete">
+        <i class="material-icons">delete_outline</i>
+      </div>
+    </div>
+    <div class="card-panel clothe white row">
+      <img src="/img/Workwear.png" alt="clothe thumb">
+      <div class="clothe-details">
+        <div class="clothe-title">Workwear</div>
+        <div class="clothe-description">In our books, your outfit should work just as hard as you do, enter our range of killer women’s workwear. From blazers with all the boss vibes, to the pants and tops that bring their a-game, nail your 9-5 in these looks.</div>
+      </div>
+      <div class="clothe-delete">
+        <i class="material-icons">delete_outline</i>
+      </div>
+    </div>
+  </div>
+
+  <div class="center">
+    <a class="btn-floating btn-small btn-large add-btn sidenav-trigger" data-target="side-form">
+      <i class="material-icons">add</i>
+    </a>
+  </div>
+
+  <!-- add clothe side nav -->
+  <div id="side-form" class="sidenav side-form">
+    <form class="add-clothe container section">
+      <h6 >New Clothing</h6>
+      <div class="divider"></div>
+      <div class="input-field">
+        <input placeholder="e.g. Lorem Ipsum" id="title" type="text" class="validate">
+        <label for="title">Title</label>
+      </div>
+      <div class="input-field">
+        <input placeholder="e.g. Lorem Ipsum" id="description" type="text" class="validate">
+        <label for="description">Description</label>
+      </div>
+      <div class="input-field center">
+        <button class="btn-small">Add</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/ui.js"></script>
+</body>
+</html>
